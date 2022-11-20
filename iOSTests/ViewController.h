@@ -11,6 +11,8 @@
 
 @property (nonatomic, strong) UITextField *memoryTextField;
 @property (nonatomic, strong) UIButton *memorybutton;
+@property (nonatomic, strong) UIProgressView *memoryAllocationProgressView;
+//@property (nonatomic, readonly) NSProgress *memoryAllocationProgress;
 
 @end
 

@@ -33,8 +33,8 @@
     mainTabBarItemLabel.text = @"□";
     mainTabBarItemLabel.textAlignment = NSTextAlignmentCenter;
 
-    //UIImage *mainTabBarItemImage = [UIImage imageWithLabel:mainTabBarItemLabel];
-    navigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Sudoku" image:nil tag:0];
+    UIImage *mainTabBarItemImage = [UIImage imageWithView:mainTabBarItemLabel];
+    navigationController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Main" image:mainTabBarItemImage tag:0];
 
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     tabBarController.viewControllers = @[navigationController];

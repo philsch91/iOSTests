@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 
 #import "ViewController.h"
+#import "UIImage+Utils.h"
 
 @interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
